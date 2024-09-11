@@ -1,9 +1,5 @@
-import MainFirst from "@/components/Home/MainFirst/MainFirst";
+import App from "@/components/App/App";
 
 export default function Home() {
-  return (
-    <main className="container">
-      <MainFirst />
-    </main>
-  );
+  return <App />;
 }
